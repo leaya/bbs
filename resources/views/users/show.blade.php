@@ -14,10 +14,10 @@
                         <div class="media-body">
                             <hr>
                             <h4><strong>个人简介</strong></h4>
-                            <p>我出生在上海，现是一位自由职业者，热爱程序开心，精通SEO搜索引擎优化。</p>
+                            <p>{{ $user->bio }}</p>
                             <hr>
                             <h4><strong>注册于</strong></h4>
-                            <p>January 01 2000</p>
+                            <p>{{ $user->created_at->diffForHumans() }}</p>
                         </div>
                     </div>
                 </div>
