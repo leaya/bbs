@@ -11,7 +11,7 @@
                 url="http://larabbs.app/avatar" >
         </vue-core-image-upload>
         <img width="125" :src="src" alt="">
-        <input type="hidden" name="avatar" :value="src"></input>
+        <input type="hidden" name="avatar" :value="src">
     </div>
 </template>
 
