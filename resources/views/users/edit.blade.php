@@ -32,7 +32,7 @@
                         <textarea id="bio" name="bio" class="form-control">{{ old('bio', $user->bio) }}</textarea>
                     </div>
 
-                    <div id="app">
+                    <div class="form-group">
                         <avatar image="{{asset($user->avatar)}}"></avatar>
                     </div>
 
