@@ -1475,7 +1475,7 @@ window.Vue = __webpack_require__(43);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('avatar', __webpack_require__(46));
+Vue.component('Avatar', __webpack_require__(46));
 
 var app = new Vue({
   el: '#app'
