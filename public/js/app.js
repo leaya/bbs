@@ -45228,7 +45228,7 @@ var render = function() {
           data: _vm.data,
           "max-file-size": 5242880,
           compress: "50",
-          url: "http://larabbs.app/avatar"
+          url: "/avatar"
         },
         on: { imageuploaded: _vm.imageuploaded }
       }),

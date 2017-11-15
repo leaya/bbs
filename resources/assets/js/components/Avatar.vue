@@ -8,7 +8,7 @@
                 :data="data"
                 :max-file-size="5242880"
                 compress="50"
-                url="http://larabbs.app/avatar" >
+                url="/avatar" >
         </vue-core-image-upload>
         <img width="125" :src="src" alt="">
         <input type="hidden" name="avatar" :value="src">
