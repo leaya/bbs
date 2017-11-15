@@ -45233,7 +45233,11 @@ var render = function() {
         on: { imageuploaded: _vm.imageuploaded }
       }),
       _vm._v(" "),
-      _c("img", { attrs: { width: "125", src: _vm.src, alt: "" } }),
+      _c("img", {
+        staticClass: "thumbnail img-responsive",
+        staticStyle: { "margin-top": "10px" },
+        attrs: { width: "125", src: _vm.src, alt: "" }
+      }),
       _vm._v(" "),
       _c("input", {
         attrs: { type: "hidden", name: "avatar" },

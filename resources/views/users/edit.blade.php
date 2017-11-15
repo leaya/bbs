@@ -33,6 +33,7 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="" class="avatar-label">用户头像：</label>
                         <avatar image="{{asset($user->avatar)}}"></avatar>
                     </div>
 

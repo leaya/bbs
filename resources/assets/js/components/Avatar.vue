@@ -10,7 +10,7 @@
                 compress="50"
                 url="/avatar" >
         </vue-core-image-upload>
-        <img width="125" :src="src" alt="">
+        <img class="thumbnail img-responsive" width="125" :src="src" alt="" style="margin-top:10px">
         <input type="hidden" name="avatar" :value="src">
     </div>
 </template>
