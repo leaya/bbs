@@ -15,7 +15,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('Avatar', require('./components/Avatar.vue'));
+Vue.component('avatar', require('./components/Avatar.vue'));
 
 const app = new Vue({
     el: '#app'
