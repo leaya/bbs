@@ -32,6 +32,7 @@
                         <textarea id="bio" name="bio" class="form-control">{{ old('bio', $user->bio) }}</textarea>
                     </div>
 
+                   <avatar image="{{asset($user->avatar)}}"></avatar>
                     <div class="well well-sm">
                         <button class="btn btn-primary" type="submit">保存</button>
                     </div>

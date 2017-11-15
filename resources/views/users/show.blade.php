@@ -9,7 +9,7 @@
                 <div class="panel-body">
                     <div class="media">
                         <div class="center">
-                            <img src="{{ asset('images/avatars/default.png') }}" alt="" class="thumbnail img-resposive">
+                            <img width="100%" src="{{ $user->avatar }}" alt="" class="thumbnail img-resposive">
                         </div>
                         <div class="media-body">
                             <hr>

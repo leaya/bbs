@@ -8,6 +8,11 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>@yield ('title', 'leaya BBS') - 移居者，移民海外指南</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script>
+        window.Laravel = {
+            csrfToken: '{{ csrf_token() }}'
+        }
+    </script>
 </head>
 <body>
     <div id="app" class="{{ route_class() }}-page">
