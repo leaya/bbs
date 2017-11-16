@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>@yield ('title', 'leaya BBS') - 移居者，移民海外指南</title>
+    <meta name="description" content="@yield('description', '移居者， 移民海外的社区')">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @yield('styles')
     <script>
