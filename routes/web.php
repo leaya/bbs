@@ -19,5 +19,6 @@ Route::resource('users', 'UsersController')->only(['show', 'update', 'edit']);
 
 Route::post('avatar', 'UsersController@changeAvatar');
 Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');
 
 Route::resource('categories', 'CategoriesController')->only(['show']);

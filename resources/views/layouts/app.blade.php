@@ -8,6 +8,7 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>@yield ('title', 'leaya BBS') - 移居者，移民海外指南</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @yield('styles')
     <script>
         window.Laravel = {
             csrfToken: '{{ csrf_token() }}'
@@ -25,5 +26,6 @@
     </div>
 
     <script src="{{ asset('js/app.js') }}"></script>
+    @yield('scripts')
 </body>
 </html>
