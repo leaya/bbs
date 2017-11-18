@@ -6,8 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{csrf_token()}}">
-    <title>@yield ('title', 'leaya BBS') - 移居者，移民海外指南</title>
-    <meta name="description" content="@yield('description', '移居者， 移民海外的社区')">
+    <title>@yield ('title', 'leaya BBS') - {{ setting('site_name', '移居者，移民海外指南') }}</title>
+    <meta name="description" content="@yield('description', setting('seo_description', '移居者， 移民海外的社区'))">
+    <meta name="keyword" content="@yield('keyword', setting('seo_keyword', 'LaraBBS,社区,论坛,开发者论坛'))" />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @yield('styles')
     <script>

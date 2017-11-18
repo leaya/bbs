@@ -9,9 +9,11 @@ use App\Models\User;
 
 class UserObserver
 {
-    public function creating(User $user)
+    public function saving(User $user)
     {
-        //
+        if (empty($user->avatar)) {
+            $user->avatar = 'http://larabbs.app/images/avatars/default.png';
+        }
     }
 
     public function updating(User $user)
